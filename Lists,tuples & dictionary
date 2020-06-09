@@ -1,0 +1,29 @@
+#assigning elements to different lists
+names=["Ram","Shyam","Raju"]
+fruits=["apple","orange","mango"]
+print("Lists before adding elements:")
+print(names)
+print(fruits)
+names.append("baburao")
+fruits.append("banana")
+print("Lists after adding elements:")
+print(names)
+print(fruits)
+
+#Accessing elements from a tuple
+vegetables=("tomato","potato","cabbage")
+print("This is a tuple")
+print(vegetables)
+print(vegetables[2])
+
+#Deleting different dicitionary elements
+country={"India":"Delhi","USA":"Washington DC","UK":"London"}
+states={"Gujarat":"Gandhinagar","Rajasthan":"Jaipur","Maharashtra":"Mumbai"}
+print("Before deleting dictionary elements:")
+print(country)
+print(states)
+del country["UK"]
+del states["Rajasthan"]
+print("After deleting dictionary elements:")
+print(country)
+print(states)
